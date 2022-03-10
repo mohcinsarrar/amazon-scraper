@@ -42,3 +42,5 @@ you can scrape reviews for one or many products using the command
 - if you want to scrape many products use a csv file (like in amazon/asin.csv)
 - maxpages: is the max number of pages you want to srape for each product
 - outputFile.csv to save the products reviews
+
+<p align="right">(<a href="#top">back to top</a>)</p>
