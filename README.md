@@ -24,11 +24,11 @@ is a simple and functional solution to extract data from Amazon.com. The program
 ## Usage
 
 ### Scrape product infos
-to start scraping product from an amazon category, go to the project directory, and use this command
+to start scraping products from an amazon category, go to the project directory, and use this command
   ```sh
      scrapy crawl product -a category="URL" -O outputFile.csv
   ```
-- outputFile.csv to save the product infos
+- outputFile.csv to save the products infos
 - the URL is the link of the category page
 <img src="./images/category.png">
 
