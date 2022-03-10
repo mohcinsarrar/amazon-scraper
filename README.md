@@ -33,7 +33,12 @@ to start scraping product from an amazon category, go to the project directory, 
 <img src="./images/category.png">
 
 ### Scrape product reviews
-you can scrape reviews for one or many product using the command
+you can scrape reviews for one or many products using the command
   ```sh
      scrapy crawl review -a product="ASIN" -a products="path_to_csv_file_of_asin" -a maxpages=nbr -O outputFile.csv
   ```
+(use one of product or products arg)
+- if you want to scrape one product use product arg eqal to asin
+- if you want to scrape many products use a csv file (like in amazon/asin.csv)
+- maxpages: is the max number of pages you want to srape for each product
+- outputFile.csv to save the products reviews
