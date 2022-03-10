@@ -26,9 +26,10 @@ is a simple and functional solution to extract data from Amazon.com. The program
 ### Scrape product infos
 to start scraping product from an amazon category, go to the project directory, and use this command
   ```sh
-     scrapy crawl product -a product="URL" -O outputFile.csv
+     scrapy crawl product -a category="URL" -O outputFile.csv
   ```
 - the URL is the link of the category page
+<img src="./images/category.png>
 - outputFile.csv to save the product infos
 
 
