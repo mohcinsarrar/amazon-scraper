@@ -28,8 +28,9 @@ to start scraping product from an amazon category, go to the project directory, 
   ```sh
      scrapy crawl product -a category="URL" -O outputFile.csv
   ```
+- outputFile.csv to save the product infos
 - the URL is the link of the category page
 <img src="./images/category.png">
-- outputFile.csv to save the product infos
+
 
 
